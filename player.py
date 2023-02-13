@@ -50,9 +50,9 @@ START_TEXT = """
 ┣★ **𝚀𝚞𝚎𝚞𝚎𝚜 𝙰𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎**
 ┣★ **𝙼𝚞𝚕𝚝𝚒 𝙲𝚑𝚊𝚝𝚜 𝚂𝚞𝚙𝚙𝚘𝚛𝚝𝚎𝚍**
 ┣★ **𝚈𝚃 𝙻𝚒𝚟𝚎 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝚂𝚞𝚙𝚙𝚘𝚛𝚝𝚎𝚍**
-┣★ **𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜:** @MissCutie_Support
-┣★ **𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢:** @MissCutieBots
-┣★**𝙼𝚊𝚗𝚊𝚐𝚎𝚍 𝙱𝚢:** @SAIFALISEW1508 
+┣★ **𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜:** @gringomdz
+┣★ **𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢:** @gringomdz
+┣★**𝙼𝚊𝚗𝚊𝚐𝚎𝚍 𝙱𝚢:** @gringomdz
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━
 """
@@ -62,19 +62,19 @@ START_BUTTONS = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "♦️ 𝙰𝚍𝚍 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ♦️",
-                url="https://t.me/MissCutiePlayerBot?startgroup=true",
+                url="https://t.me/MdzMusicBot?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton("📝 𝙼𝚞𝚜𝚒𝚌 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜", callback_data="cbcmds"),
-            InlineKeyboardButton("🇮🇳 𝙼𝚊𝚗𝚊𝚐𝚎𝚛", user_id="1930139488"),
+            InlineKeyboardButton("🇮🇳 𝙼𝚊𝚗𝚊𝚐𝚎𝚛", user_id="5012010632"),
         ],
         [
             InlineKeyboardButton(
-                "🧞‍♂ 𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/MissCutie_Support"
+                "🧞‍♂ 𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/gringomdz"
             ),
             InlineKeyboardButton(
-                "🔔 𝚄𝚙𝚍𝚊𝚝𝚎𝚜", url="https://t.me/MissCutieUpdates"
+                "🔔 𝚄𝚙𝚍𝚊𝚝𝚎𝚜", url="https://t.me/mdzup"
             ),
         ],
         [
@@ -104,7 +104,7 @@ BUTTONS = InlineKeyboardMarkup(
 GROUP_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="• 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 •", url="https://t.me/MissCutie_Support"),
+            InlineKeyboardButton(text="• 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 •", url="https://t.me/gringomdz"),
             InlineKeyboardButton(text="• 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 •", callback_data="cbcmds")
         ]
     ]
@@ -114,7 +114,7 @@ BACK_BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="• Close •", callback_data="close"),
-            InlineKeyboardButton(text="• Support •", url="https://t.me/MissCutie_Support")
+            InlineKeyboardButton(text="• Support •", url="https://t.me/gringomdz")
         ]
     ]
 )
@@ -218,7 +218,7 @@ async def yt_audio(link):
 async def cbcmds(_, query: CallbackQuery):
     await query.answer("Commands Menu")
     await query.edit_message_text(
-        """🇮🇳 𝑯𝒆𝒍𝒍𝒐 » **⚜𝑳𝒊𝒔𝒕 𝑶𝒇 𝑨𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔⚜**
+        """🇮🇳 Opa » **⚜𝑳𝒊𝒔𝒕 𝑶𝒇 𝑨𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔⚜**
 » /play (𝚂𝚘𝚗𝚐 𝙽𝚊𝚖𝚎/𝙻𝚒𝚗𝚔) - **𝙿𝚕𝚊𝚢 𝙼𝚞𝚜𝚒𝚌**
 » /vplay (𝚟𝚒𝚍𝚎𝚘 𝚗𝚊𝚖𝚎/𝚕𝚒𝚗𝚔) - **𝙿𝚕𝚊𝚢 𝚅𝚒𝚍𝚎𝚘**
 » /liveplay (𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝚒𝚗𝚔) - **𝙿𝚕𝚊𝚢 𝙻𝚒𝚟𝚎 𝙼𝚞𝚜𝚒𝚌**
@@ -232,7 +232,7 @@ async def cbcmds(_, query: CallbackQuery):
 » /unmute - **𝚄𝚗𝙼𝚞𝚝𝚎 𝚃𝚑𝚎 𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝙾𝚗 𝚅𝚘𝚒𝚌𝚎 𝙲𝚑𝚊𝚝**
 » /playlist - **𝚂𝚑𝚘𝚠 𝚈𝚘𝚞 𝚃𝚑𝚎 𝙿𝚕𝚊𝚢𝚕𝚒𝚜𝚝**
 » /restart - **𝚁𝚎𝚜𝚝𝚊𝚛𝚝 𝚃𝚑𝚎 𝙱𝚘𝚝**
-⚡  𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚: @MissCutieBots""",
+⚡  𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚: @gringomdz""",
         reply_markup=BACK_BUTTON,
     )
 
@@ -240,7 +240,7 @@ async def cbcmds(_, query: CallbackQuery):
 @bot.on_callback_query(filters.regex("repo_callback"))
 async def repo_callback(_, CallbackQuery):
  return await CallbackQuery.answer(
-                "𝙽𝚒𝚌𝚎 𝚃𝚛𝚢 𝙼𝚊𝚗 𝙱𝚞𝚝 𝙾𝚗𝚎 𝚃𝚑𝚒𝚗𝚐 𝙰𝚛𝚎 𝚈𝚘𝚞 𝙰 𝙱𝚒𝚝𝚌𝚑 𝚃𝚑𝚎𝚢 𝚆𝚘𝚞𝚕𝚍 𝙾𝚗𝚕𝚢 𝙰𝚜𝚔 𝙼𝚎 𝚃𝚑𝚎 𝙰𝚋𝚘𝚞𝚝 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎😏 ©️MissCutieBots@SAIFALISEW1508", show_alert=True
+                "𝙽𝚒𝚌𝚎 𝚃𝚛𝚢 𝙼𝚊𝚗 𝙱𝚞𝚝 𝙾𝚗𝚎 𝚃𝚑𝚒𝚗𝚐 𝙰𝚛𝚎 𝚈𝚘𝚞 𝙰 𝙱𝚒𝚝𝚌𝚑 𝚃𝚑𝚎𝚢 𝚆𝚘𝚞𝚕𝚍 𝙾𝚗𝚕𝚢 𝙰𝚜𝚔 𝙼𝚎 𝚃𝚑𝚎 𝙰𝚋𝚘𝚞𝚝 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎😏 ©️gringomdz", show_alert=True
             )
 
 @bot.on_callback_query(filters.regex("close"))
@@ -256,7 +256,7 @@ async def start_private(_, message):
                               reply_markup = START_BUTTONS)
 
 
-@bot.on_message(filters.command(["join", "join@MissCutiePlayerBot"]) & filters.group)
+@bot.on_message(filters.command(["join", "join@MdzMusicBot"]) & filters.group)
 async def join_chat(c: Client, m: Message):
     chat_id = m.chat.id
     try:
